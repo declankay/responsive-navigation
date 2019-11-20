@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		
+		<!-- Meta -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Responsive Navigation HTML, CSS and JS</title>
+		
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+		<link rel="stylesheet" type="text/css" href="css/hamburgers.min.css"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous" SameSite="Secure">
+		
+		<!-- JS -->
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/script.js"></script>
+		
+	</head>
+	
+	<body>
+	  
+	<!-- mobile navigation -->
+	<header class="header mobile-navigation">
+	
+		<div class="container">
+	
+			<div class="logo">
+				<a href="/">
+					<img src="images/logo.jpg" alt="Logo" class="main-logo"/>
+				</a>
+			</div>
+	
+			<button class="hamburger hamburger--squeeze" type="button">
+				<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+				</span>
+			</button>
+	
+			<nav class="navigation-overlay outer-cell">
+	
+				<div class="inner-cell">
+					<ul class="main-links">
+						<li><a href="/" class="navigation-link">Home</a></li>
+						<li class="has-children"><a href="/" class="navigation-link">Services</a>
+							<ul class="sub-links">
+								<li><a href="/">Service One</a></li>
+								<li><a href="/">Service Two</a></li>
+							</ul>
+						</li>
+						<li><a href="/" class="navigation-link">Work</a></li>
+						<li><a href="/" class="navigation-link">About</a></li>
+						<li><a href="/" class="navigation-link">Contact</a></li>
+					</ul>
+				</div>
+	
+			</nav>
+	
+		</div>
+	
+	</header>
+	
+	<!-- desktop navigation -->
+	<header class="header desktop-navigation">
+	
+		<div class="container-medium">
+	
+			<div class="header-inner">
+	
+				<nav>
+					<ul class="main-links">
+						<li class="logo"><a href="/"><img src="images/logo.jpg" alt="Logo" class="main-logo"/></a></li>
+						<li><a href="/" class="navigation-link">Home</a></li>
+						<li class="has-children">
+							<a href="/" class="navigation-link">Our Services
+								<i class="fas fa-angle-down"></i>
+							</a>
+							<ul class="sub-links">
+								<li><a href="/" class="font-body">Service One</a></li>
+								<li><a href="/" class="font-body">Service Two</a></li>
+							</ul>
+						</li>
+						<li><a href="/" class="navigation-link">Our Work</a></li>
+						<li><a href="/" class="navigation-link">About Us</a></li>
+						<li><a href="/" class="navigation-link">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+	
+		</div>
+	
+	</header>
+	
+	<div class="nav-push"></div>
+	  
+	<div class="text-center">
+		
+		<p>Responsive Navigation HTML, CSS and JS</p>
+		
+	</div>
+
+	</body>
+	
+</html>
